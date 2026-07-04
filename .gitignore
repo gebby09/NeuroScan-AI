@@ -1,0 +1,48 @@
+# Operating system / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Temporary files generated during documentation/debugging
+tmp/
+tmp_*/
+.agents/
+.codex/
+Workspace/
+Workspace-licenta/
+
+# Java / Spring Boot
+Backend/target/
+Backend/.mvn/wrapper/maven-wrapper.jar
+Backend/uploads/
+Backend/src/main/resources/application.properties
+
+# Node / React
+FrontEnd/node_modules/
+FrontEnd/dist/
+FrontEnd/.tanstack/
+FrontEnd/.output/
+FrontEnd/.nitro/
+FrontEnd/.vinxi/
+FrontEnd/.env
+FrontEnd/.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+ToolPython/brain-tumor-detection/.venv/
+ToolPython/brain-tumor-detection/venv/
+
+# ML datasets and generated binary model artifacts
+ToolPython/brain-tumor-detection/dataset/
+ToolPython/brain-tumor-detection/*.keras
+ToolPython/brain-tumor-detection/*.h5
+ToolPython/brain-tumor-detection/*.pt
+ToolPython/brain-tumor-detection/*.onnx
+
+# Local logs
+*.log
