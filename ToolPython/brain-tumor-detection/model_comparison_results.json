@@ -1,0 +1,98 @@
+[
+  {
+    "Model": "MobileNetV2",
+    "Params": 2422081,
+    "Accuracy": 0.9583,
+    "Precision": 0.9365,
+    "Recall": 0.9833,
+    "Specificity": 0.9333,
+    "F1Score": 0.9593,
+    "AUC": 0.9947,
+    "TN": 280,
+    "FP": 20,
+    "FN": 5,
+    "TP": 295,
+    "AvgInferenceTimeMs": 9.44,
+    "ModelPath": "C:\\Users\\Andrei\\Desktop\\FolderNou\\ToolPython\\brain-tumor-detection\\brain_tumor_mobilenetv2.keras",
+    "ConfusionMatrix": {
+      "labels": [
+        "no_tumor",
+        "tumor"
+      ],
+      "matrix": [
+        [
+          280,
+          20
+        ],
+        [
+          5,
+          295
+        ]
+      ]
+    }
+  },
+  {
+    "Model": "EfficientNetB0",
+    "Params": 4213668,
+    "Accuracy": 0.9783,
+    "Precision": 0.9767,
+    "Recall": 0.98,
+    "Specificity": 0.9767,
+    "F1Score": 0.9784,
+    "AUC": 0.9941,
+    "TN": 293,
+    "FP": 7,
+    "FN": 6,
+    "TP": 294,
+    "AvgInferenceTimeMs": 12.15,
+    "ModelPath": "C:\\Users\\Andrei\\Desktop\\FolderNou\\ToolPython\\brain-tumor-detection\\brain_tumor_efficientnetb0.keras",
+    "ConfusionMatrix": {
+      "labels": [
+        "no_tumor",
+        "tumor"
+      ],
+      "matrix": [
+        [
+          293,
+          7
+        ],
+        [
+          6,
+          294
+        ]
+      ]
+    }
+  },
+  {
+    "Model": "ResNet50",
+    "Params": 23850113,
+    "Accuracy": 0.95,
+    "Precision": 0.9787,
+    "Recall": 0.92,
+    "Specificity": 0.98,
+    "F1Score": 0.9485,
+    "AUC": 0.99,
+    "TN": 294,
+    "FP": 6,
+    "FN": 24,
+    "TP": 276,
+    "AvgInferenceTimeMs": 25.09,
+    "ModelPath": "C:\\Users\\Andrei\\Desktop\\FolderNou\\ToolPython\\brain-tumor-detection\\brain_tumor_resnet50.keras",
+    "ConfusionMatrix": {
+      "labels": [
+        "no_tumor",
+        "tumor"
+      ],
+      "matrix": [
+        [
+          294,
+          6
+        ],
+        [
+          24,
+          276
+        ]
+      ]
+    }
+  }
+]
